@@ -15,6 +15,7 @@
 		E7E5753F1D631109008FB51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E5753D1D631109008FB51E /* LaunchScreen.storyboard */; };
 		E7E5754A1D631109008FB51E /* hideViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E575491D631109008FB51E /* hideViewExampleTests.m */; };
 		E7E575551D63110A008FB51E /* hideViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E575541D63110A008FB51E /* hideViewExampleUITests.m */; };
+		E7E575641D63114E008FB51E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E575631D63114E008FB51E /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7E575501D631109008FB51E /* hideViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hideViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E575541D63110A008FB51E /* hideViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hideViewExampleUITests.m; sourceTree = "<group>"; };
 		E7E575561D63110A008FB51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E575621D63114E008FB51E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E7E575631D63114E008FB51E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				E7E575351D631109008FB51E /* ViewController.h */,
 				E7E575361D631109008FB51E /* ViewController.m */,
 				E7E575381D631109008FB51E /* Main.storyboard */,
+				E7E575621D63114E008FB51E /* TableViewController.h */,
+				E7E575631D63114E008FB51E /* TableViewController.m */,
 				E7E5753B1D631109008FB51E /* Assets.xcassets */,
 				E7E5753D1D631109008FB51E /* LaunchScreen.storyboard */,
 				E7E575401D631109008FB51E /* Info.plist */,
@@ -273,6 +278,7 @@
 				E7E575371D631109008FB51E /* ViewController.m in Sources */,
 				E7E575341D631109008FB51E /* AppDelegate.m in Sources */,
 				E7E575311D631109008FB51E /* main.m in Sources */,
+				E7E575641D63114E008FB51E /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

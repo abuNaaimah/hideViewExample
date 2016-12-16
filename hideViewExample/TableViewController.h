@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TableViewController.h
 //  hideViewExample
 //
 //  Created by tops on 8/16/16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TableViewController : UITableViewController
 
 @end
-
